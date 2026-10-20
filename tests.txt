@@ -1,0 +1,43 @@
+
+> projeton2@1.0.0 test
+> jest
+
+PASS tests/Garage.test.ts
+  Create a car to the garage
+    √ should add a car to the garage (3 ms)
+  Cars in the storage
+    √ The car is in the garage after being added (1 ms)
+  Changing the stored status of a car
+    √ Change the stored status of a car and check if it is updated (1 ms)
+  Changing the stored status of a car part 2
+    √ Change the stored status of a car and check if it is updated then changing again (1 ms)
+  Add car to the garage
+    √ Add a car to the garage and check if it is stored
+  Adding a car from the garage
+    √ Add a car and check if it is stored
+  Adding a lot of cars to the garage
+    √ Adding multiple cars and checking the count
+  Removing a car from the garage
+    √ Adding a car and then removing it to check if it is no longer stored (1 ms)
+  Removing a car from the garage part 2
+    √ Remove a car and check if it is no longer stored
+  Finding a car in the garage
+    √ Add a car and find it by model
+  Undefined cars in the garage
+    √ Trying to find a car with undefined model should throw an error (13 ms)
+  Adding a car that already exists in the garage
+    √ Adding a car then trying to add the car again that already exists should throw an error
+  Checking the brand of a car in the garage
+    √ Add a car and check its brand
+  Checking the year of a car in the garage
+    √ Add a car and check its year (1 ms)
+  Deleting a car betwing multiple cars in the garage
+    √ Add multiple cars and delete one, then check the count (1 ms)
+  Checking the state of the removed car in the garage
+    √ Adding three cars, removing a car and check if it is no longer stored and the state of the others cars (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       16 passed, 16 total
+Snapshots:   0 total
+Time:        1.506 s, estimated 3 s
+Ran all test suites.
